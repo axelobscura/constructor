@@ -64,7 +64,7 @@ function AuthButton() {
       </button>
     </p>
   ) : (
-    <p>Usted no ha ingresado.</p>
+    <p style={{fontSize: '0.5em', fontWeight: '100', padding: '20px'}}>NO HA INGRESADO</p>
   );
 }
 
@@ -95,14 +95,25 @@ function PublicPage() {
     <div className="App">
         <header className="App-header">
           <Logotipo />
-          <ul>
-            <li>
-              <Link to="/public">Public Page</Link>
-            </li>
-            <li>
-              <Link to="/protected">Protected Page</Link>
-            </li>
-          </ul>
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="basic-addon1">
+                <i className="lni-users"></i>
+              </span>
+            </div>
+            <input type="text" className="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1" />
+          </div>
+          <div className="input-group mb-3">
+            <div className="input-group-prepend">
+              <span className="input-group-text" id="basic-addon1">
+                <i className="lni-lock"></i>
+              </span>
+            </div>
+            <input type="text" className="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" />
+          </div>
+          <Link to="/protected">
+            <button type="button" class="btn btn-dark">ENTRAR A SU CUENTA</button>
+          </Link>
           <AuthButton />
         </header>
     </div>

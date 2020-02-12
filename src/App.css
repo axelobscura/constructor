@@ -41,3 +41,22 @@
     transform: rotate(360deg);
   }
 }
+
+input.form-control {
+  background: rgba(0,0,0,0.7);
+  border: none;
+  color: #fff !important;
+}
+
+.btn-dark {
+  background: #000000;
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+.input-group-text {
+  background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 0.8em;
+}
