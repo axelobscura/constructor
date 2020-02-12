@@ -7,7 +7,6 @@ const LogotipoHorizontal = () => (
       width: "200px"
     }} />
   </div>
-  
 )
 
 export default LogotipoHorizontal;
