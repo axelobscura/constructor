@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35f22546e6761c98e96dbb8a0ee3bf84",
+    "revision": "e6d00923415967a4076188c5d6cebb60",
     "url": "/www.constructor.com/app/index.html"
   },
   {
-    "revision": "4e9c893d2279be63ac2c",
+    "revision": "b4b158402725bf89e832",
     "url": "/www.constructor.com/app/static/css/main.53971fbf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/www.constructor.com/app/static/js/2.f61b9d55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e9c893d2279be63ac2c",
-    "url": "/www.constructor.com/app/static/js/main.1f178f8f.chunk.js"
+    "revision": "b4b158402725bf89e832",
+    "url": "/www.constructor.com/app/static/js/main.d500e9d6.chunk.js"
   },
   {
     "revision": "fe8260cbf6ff43b22989",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b883545a6ca067845a5dc2259da9c0e0",
     "url": "/www.constructor.com/app/static/media/logo.b883545a.svg"
+  },
+  {
+    "revision": "8195840c9c4f987df4d913f1fb5f437a",
+    "url": "/www.constructor.com/app/static/media/logo_vertical.8195840c.svg"
   }
 ]);
