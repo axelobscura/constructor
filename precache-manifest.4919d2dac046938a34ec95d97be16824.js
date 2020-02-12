@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb07215035d1e8c5ac39c421ed33eaba",
+    "revision": "35f22546e6761c98e96dbb8a0ee3bf84",
     "url": "/www.constructor.com/app/index.html"
   },
   {
-    "revision": "b596b84282290efced29",
-    "url": "/www.constructor.com/app/static/css/main.9a476bf1.chunk.css"
+    "revision": "4e9c893d2279be63ac2c",
+    "url": "/www.constructor.com/app/static/css/main.53971fbf.chunk.css"
   },
   {
-    "revision": "7a4aae81b09327f075ce",
-    "url": "/www.constructor.com/app/static/js/2.3fe2fa2d.chunk.js"
+    "revision": "6caf3af0cdac541597dd",
+    "url": "/www.constructor.com/app/static/js/2.f61b9d55.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/www.constructor.com/app/static/js/2.3fe2fa2d.chunk.js.LICENSE.txt"
+    "url": "/www.constructor.com/app/static/js/2.f61b9d55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b596b84282290efced29",
-    "url": "/www.constructor.com/app/static/js/main.025cc20e.chunk.js"
+    "revision": "4e9c893d2279be63ac2c",
+    "url": "/www.constructor.com/app/static/js/main.1f178f8f.chunk.js"
   },
   {
     "revision": "fe8260cbf6ff43b22989",
