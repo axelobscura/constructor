@@ -14,20 +14,20 @@ import './App.css';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={'/app'}>
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route exact path="/">
+            <Route path={`${process.env.PUBLIC_URL}/`}>
               <PublicPage />
             </Route>
-            <Route path="/public">
+            <Route path={`${process.env.PUBLIC_URL}/public`}>
               <PublicPage />
             </Route>
-            <Route path="/login">
+            <Route path={`${process.env.PUBLIC_URL}/login`}>
               <LoginPage />
             </Route>
-            <PrivateRoute path="/protected">
+            <PrivateRoute path={`${process.env.PUBLIC_URL}/protected`}>
               <ProtectedPage />
             </PrivateRoute>
           </Switch>
