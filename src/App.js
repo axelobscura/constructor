@@ -8,31 +8,35 @@ import {
   useHistory,
   useLocation
 } from "react-router-dom";
+import LayoutEntrada from './components/LayoutEntrada';
 import Logotipo from './components/Logo';
+import Dashboard from './components/Dashboard';
 
 import './App.css';
 
 export default function App() {
   return (
     <Router basename={'/www.constructor.com/app/'}>
-      <div className="App">
-        <header className="App-header">
           <Switch>
             <Route exact path="/">
-              <PublicPage />
+              <LayoutEntrada>
+                <PublicPage />
+              </LayoutEntrada>
             </Route>
             <Route exact path="/public">
-              <PublicPage />
+              <LayoutEntrada>
+                <PublicPage />
+              </LayoutEntrada>
             </Route>
             <Route exact path="/login">
-              <LoginPage />
+              <LayoutEntrada>
+                <LoginPage />
+              </LayoutEntrada>
             </Route>
             <PrivateRoute exact path="/protected">
-              <ProtectedPage />
+              <Dashboard />
             </PrivateRoute>
           </Switch>
-        </header>
-      </div>
     </Router>
   );
 }
@@ -120,10 +124,6 @@ function PublicPage() {
   )
 }
 
-function ProtectedPage() {
-  return <h3>Protected</h3>;
-}
-
 function LoginPage() {
   let history = useHistory();
   let location = useLocation();
@@ -137,8 +137,9 @@ function LoginPage() {
 
   return (
     <div>
-      <p>Usted debe estar registrado para ver la página {from.pathname}</p>
-      <button onClick={login}>Ingresar</button>
+      <p>GRACIAS POR VISITARNOS!</p>
+      <p><small>A continuación encontrará sus cotizaciones.</small></p>
+      <button onClick={login} type="button" class="btn btn-dark">INGRESAR AL ADMINISTRADOR</button>
     </div>
   );
 }
