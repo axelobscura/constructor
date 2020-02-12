@@ -15,6 +15,11 @@
 
 .App-header {
   background-color: #282c34;
+  background: url(assets/bkg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
