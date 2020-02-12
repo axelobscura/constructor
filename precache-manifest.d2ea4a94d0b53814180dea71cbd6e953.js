@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c63c4005a1024ea1fe0ce10e46d3a80",
+    "revision": "fb07215035d1e8c5ac39c421ed33eaba",
     "url": "/www.constructor.com/app/index.html"
   },
   {
-    "revision": "a86e60104bffcff09397",
+    "revision": "b596b84282290efced29",
     "url": "/www.constructor.com/app/static/css/main.9a476bf1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/www.constructor.com/app/static/js/2.3fe2fa2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a86e60104bffcff09397",
-    "url": "/www.constructor.com/app/static/js/main.3bcbba8a.chunk.js"
+    "revision": "b596b84282290efced29",
+    "url": "/www.constructor.com/app/static/js/main.025cc20e.chunk.js"
   },
   {
     "revision": "fe8260cbf6ff43b22989",
