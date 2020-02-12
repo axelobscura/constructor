@@ -18,7 +18,7 @@ export default function App() {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
               <PublicPage />
             </Route>
             <Route path="/public">
@@ -126,8 +126,8 @@ function LoginPage() {
 
   return (
     <div>
-      <p>You must log in to view the page at {from.pathname}</p>
-      <button onClick={login}>Log in</button>
+      <p>Usted debe estar registrado para ver la página {from.pathname}</p>
+      <button onClick={login}>Ingresar</button>
     </div>
   );
 }
